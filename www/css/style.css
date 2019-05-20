@@ -1,7 +1,7 @@
-/* Empty. Add your own CSS if you like */
-.fondo {
-	background-color: #0663C1 
-	body {
+.a{
+  background: url(https://previews.123rf.com/images/sakdam/sakdam1507/sakdam150700016/42769515-debajo-agua-fondo-mar-oc%C3%A9ano-profundo-azul-luz-arena.jpg);
+}
+body {
   margin: 0;
   padding: 0;
   font-family: monospace;
@@ -17,6 +17,13 @@ p {
 canvas {
   display: block;
   margin: 20px auto;
-  background: black url("http://api.thumbr.it/whitenoise-560x800.png?background=0f1517ff&noise=626262&density=67&opacity=15") repeat fixed center;
+  background: black url("http://www.solofondos.com/wp-content/uploads/2015/12/Fondos-de-colores-s%C3%B3lidos.jpg") repeat fixed center;
 }
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+background-color: #000000  ;
 }
